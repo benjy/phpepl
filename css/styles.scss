@@ -8,11 +8,11 @@ body {
 }
 
 .container {
-  width: 75%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
   padding-top: 1%;
-  $sidebar-width: 30%;
+  $sidebar-width: 0%;
   .sidebar {
     width: $sidebar-width;
     display: inline-block;

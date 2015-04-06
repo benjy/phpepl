@@ -30,85 +30,9 @@
     </script>
   </head>
   <body>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=803805852966575&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
 
-    <!-- Built by Mr. Joel Kemp, @mrjoelkemp, www.mrjoelkemp.com -->
-    <!-- Yes, there's php -a, but it isn't great for multi-line snippets.
-    I really wanted a repl to play with particular parts of PHP. -->
     <div class='container'>
-      <a class="fork-me" href='https://github.com/mrjoelkemp/phpepl' target="_blank" rel="nofollow">
-        <img alt='Fork me on GitHub' src='https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png' style='position: absolute; top: 0; right: 0; border: 0;'>
-      </a>
-      <div class="sidebar">
-        <div class='title'>
-          <span class='code'>PHPepl: The PHP repl</span>
-          <button>Submit Code</button>
-        </div>
-        <div class="built-by">
-          <span>Built by <a href="https://twitter.com/mrjoelkemp" target="_blank" rel="nofollow">@mrjoelkemp</a></span>
-          and
-          <a href="https://twitter.com/ElijahHorton" target="_blank" rel="nofollow">@ElijahHorton</a></span>
-        </div>
-        <div class="heroku-version">
-          <a class="link-to-heroku" href="http://phpepl.herokuapp.com">Click for a PHP 5.5 version</a>
-        </div>
-        <div class='submit'>
-          <span class='code'>
-            Run Code:
-            <span class='shortcut'>⌘ + Enter</span>
-            or
-            <span class='shortcut'>Ctrl + Enter</span>
-          </span>
-          <span class='code'>
-            Previous:
-            <span class='shortcut'>⌘ + ⇧ + Up</span>
-            or
-            <span class='shortcut'>Ctrl + Shift + Up</span>
-          </span>
-          <span class='code'>
-            Next:
-            <span class='shortcut'>⌘ + ⇧ + Down</span>
-            or
-            <span class='shortcut'>Ctrl + Shift + Down</span>
-          </span>
-          <span class='code'>
-            Autocomplete:
-            <span class='shortcut'>Ctrl + Space</span>
-          </span>
-        </div>
-        <div class="share-code">
-          <span>Share your code:</span>
-          <input class="share" />
-        </div>
-        <div class='fork-info'>
-          <iframe src="github-btn.html?user=mrjoelkemp&amp;repo=phpepl&amp;type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="50px" height="20px"></iframe>
-          <span> the project for an unsandboxed experience </span>
-        </div>
-        <div class='credits'>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-text="Try out some PHP in PHPepl: The PHP Repl" data-via="mrjoelkemp" data-hashtags="php">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          <div class="fb-like" data-href="http://phpepl.herokuapp.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-        </div>
-        <div class="google">
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- PHPepl -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-4527500590412561"
-               data-ad-slot="6285196909"
-               data-ad-format="auto"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-        </div>
-      </div>
+
       <div class="rightcol">
         <div id='editor'></div>
         <div class='console output'>
